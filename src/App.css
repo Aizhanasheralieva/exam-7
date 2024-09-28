@@ -45,29 +45,88 @@
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  margin-top: 50px;
   padding: 20px;
-  gap: 15px;
+  gap: 20px;
 }
 
 .order-details, .add-items {
-  width: 50%;
+  width: 60%;
   padding: 20px;
   border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.order-info {
+  text-transform: none;
 }
 
 .order-item {
   margin: 10px 0;
 }
+
 button {
+  width: 200px;
+  height: 60px;
   margin: 10px;
   padding: 10px;
-  background-color: #008cba;
+  background-color: #aec9d2;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 button:hover {
   background-color: #005f5f;
+}
+
+.item-button {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+button p {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 12px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.remove-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-btn:hover {
+  background-color: #ff1a1a;
 }
