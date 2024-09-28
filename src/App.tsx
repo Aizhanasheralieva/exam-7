@@ -87,7 +87,7 @@ const App = () => {
           >
             <img width={40} src={item.image} alt={item.name}/>
             <p>
-              {item.name.toUpperCase()}
+              {item.name}
               <div>Price: {item.price} KGS</div>
             </p>
           </button>

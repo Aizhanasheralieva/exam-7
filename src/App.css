@@ -100,7 +100,7 @@ button:hover {
 button p {
   margin: 0;
   padding-left: 10px;
-  font-size: 12px;
+  font-size: 10px;
   text-align: left;
   text-transform: capitalize;
 }
